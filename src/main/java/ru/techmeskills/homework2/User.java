@@ -7,7 +7,6 @@ public class User {
         System.out.println("Введите имя пользователя:");
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
-
         System.out.println("Имя пользователя: " + str);
     }
 }

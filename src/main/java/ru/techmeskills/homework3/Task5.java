@@ -11,17 +11,23 @@ public class Task5 {
             case 1:
                 System.out.println("Номер " + number + " соответствует красному цвету.");
                 break;
-            case 2:  System.out.printf("Номер %d соответствует %s", number, "оранжевому цвету.");
+            case 2:
+                System.out.printf("Номер %d соответствует %s", number, "оранжевому цвету.");
                 break;
-            case 3: System.out.println("Номер " + number + " соответствует желтому цвету.");
+            case 3:
+                System.out.println("Номер " + number + " соответствует желтому цвету.");
                 break;
-            case 4: System.out.println("Номер " + number + " соответствует зеленому цвету.");
+            case 4:
+                System.out.println("Номер " + number + " соответствует зеленому цвету.");
                 break;
-            case 5: System.out.println("Номер " + number + " соответствует голубому цвету.");
+            case 5:
+                System.out.println("Номер " + number + " соответствует голубому цвету.");
                 break;
-            case 6: System.out.println("Номер " + number + " соответствует синему цвету.");
+            case 6:
+                System.out.println("Номер " + number + " соответствует синему цвету.");
                 break;
-            case 7: System.out.println("Номер " + number + " соответствует фиолетовому цвету.");
+            case 7:
+                System.out.println("Номер " + number + " соответствует фиолетовому цвету.");
                 break;
             default:
                 System.out.println("Проверьте правильно ли введен номер цвета");

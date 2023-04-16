@@ -9,14 +9,15 @@ public class Task13 {
         float sum = scaner.nextFloat();
         System.out.println("Введите количество месяцев:");
         int month = scaner.nextInt();
-        float endSum = 0;
-        int persentage = 7;
+        //float endSum = 0;
+        //int persentage = 7;
 
         for (int i = 0; i < month; i++) {
-            endSum = sum + sum * persentage / 100;
-            sum = endSum;
+            //endSum = sum + sum * persentage / 100;
+            //sum = endSum;
+            sum += sum * 0.07f;
         }
 
-        System.out.println(endSum);
+        System.out.println(sum);
     }
 }

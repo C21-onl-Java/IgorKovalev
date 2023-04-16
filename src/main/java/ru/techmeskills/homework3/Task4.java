@@ -15,11 +15,9 @@ public class Task4 {
         int temperature = scan.nextInt();
         if (temperature > COMFORT_TEMP) {
             System.out.println(WARM);
-        }
-        if(temperature <= COMFORT_TEMP && temperature > COLD_TEMP) {
+        } else if (temperature > COLD_TEMP) {
             System.out.println(COMFORT);
-        }
-        if(temperature < COMFORT_TEMP) {
+        } else{
             System.out.println(COLD);
         }
     }

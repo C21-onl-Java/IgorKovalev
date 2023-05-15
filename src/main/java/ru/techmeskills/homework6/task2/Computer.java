@@ -3,8 +3,8 @@ package ru.techmeskills.homework6.task2;
 public class Computer {
     private String model;
     private double price;
-    HDD hdd;
-    RAM ram;
+    private HDD hdd;
+    private RAM ram;
 
     public Computer(String model, double price) {
         this.model = model;

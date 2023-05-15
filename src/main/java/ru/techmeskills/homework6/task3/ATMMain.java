@@ -14,11 +14,12 @@ public class ATMMain {
            if (String.valueOf(sum).equalsIgnoreCase("exit")) {
                break;
            }
-            boolean result = atm.withdrawMoney(sum);
-            if (!result) {
+           atm.withdrawMoney(sum);
+            //boolean result = atm.withdrawMoney(sum);
+            //if (!result) {
 
-                System.out.println("ОШИБКА");
-            }
+           //     System.out.println("ОШИБКА");
+          //  }
        }
         System.out.println(atm);
 

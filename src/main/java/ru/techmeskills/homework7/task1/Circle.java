@@ -7,9 +7,9 @@ public class Circle extends Figures{
         this.radius = radius;
     }
     public double getSquare() {
-        return 3.14 * radius * radius;
+        return Math.PI * radius * radius;
     }
     public double getPerimeter() {
-        return 2 * 3.14 * radius;
+        return 2 * Math.PI * radius;
     }
 }

@@ -19,7 +19,7 @@ public class Triangle extends Figures{
     public double getSquare() {
         double halfOfPerimeter = getPerimeter() / 2;
         double square = Math.sqrt(halfOfPerimeter * (halfOfPerimeter - a)  * (halfOfPerimeter - b) *
-                (halfOfPerimeter-c));
+                (halfOfPerimeter - c));
         return square;
     }
     public double getPerimeter() {

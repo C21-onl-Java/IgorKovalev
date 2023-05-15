@@ -1,5 +1,5 @@
 package ru.techmeskills.homework7.task2;
 
-public interface NameOfJob {
+public interface Naming {
     void printNameOfJob();
 }

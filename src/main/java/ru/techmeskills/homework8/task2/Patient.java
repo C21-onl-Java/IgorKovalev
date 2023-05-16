@@ -35,7 +35,11 @@ public class Patient {
                 System.out.println("План лечения не задан");
 
         }
-        doctor.treat();
+        if (doctor != null) {
+            doctor.treat();
+            showPatientInfo();
+        }
+
 
     }
 
@@ -48,11 +52,15 @@ public class Patient {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Patient{" +
+
+    public void showPatientInfo() {
+
+        System.out.println("Patient{" +
                 "numberOfPlan=" + numberOfPlan +
                 ", name='" + name + '\'' +
-                '}'+"\n" + "Ваш доктор " + doctor.getClass().getSimpleName();
+                '}'+"\n" + "Ваш доктор " + doctor.getClass().getSimpleName());
+
+
+
     }
 }

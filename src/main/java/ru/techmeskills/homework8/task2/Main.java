@@ -5,7 +5,7 @@ public class Main {
         Patient patient1 = new Patient("Ivanov Vladimir");
         patient1.addPlan(2);
         patient1.treat(patient1);
-        System.out.println(patient1);
+
 
     }
 }
